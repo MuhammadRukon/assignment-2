@@ -1,4 +1,128 @@
+/* shared & global css */
 * {
   margin: 0;
   padding: 0;
+  font-family: "Work Sans", sans-serif;
 }
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.logo-img {
+  object-fit: cover;
+}
+.logo-text {
+  color: #0b0223;
+  font-size: 45px;
+  font-weight: 700;
+}
+.g {
+  color: #ff42a5;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  width: 100%;
+}
+.section-title {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+}
+.btn {
+  padding: 21px 40px;
+  font-size: 20px;
+  color: white;
+  background-color: #ff42a5;
+  border: none;
+  border-radius: 48px;
+  transition: 0.3s;
+}
+.btn-secondary {
+  background-color: #4ec5f7;
+}
+/* shared & global css */
+
+/* nav */
+nav {
+  padding: 37px 240px;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.navbar {
+  gap: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  align-items: center;
+}
+.navbar li,
+.navbar a {
+  color: #3c354f;
+}
+.follow {
+  background-color: rgba(11, 2, 35, 0.1);
+  padding: 17px 24px;
+  border-radius: 8px;
+  display: flex;
+  gap: 16px;
+}
+.youtube {
+  color: #f61c0d;
+  font-size: 24px;
+}
+/* nav */
+
+/* banner */
+.banner-section {
+  background-image: url("../images/Group-14.png");
+  background-repeat: no-repeat;
+}
+.banner {
+  align-items: center;
+}
+.main-title {
+  font-size: 95px;
+  background-image: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.banner-section ul {
+  margin: 20px 0 40px 0;
+}
+.banner-section ul li {
+  margin-bottom: 10px;
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+.banner-section ul li i {
+  width: 25px;
+  margin-right: 10px;
+  text-align: left;
+  color: #f948b2;
+}
+.play {
+  border: 2px solid black;
+  height: 25px;
+  padding: 3px 0px 0px 6px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  font-size: 15px;
+}
+.banner-section .btn {
+  margin-right: 20px;
+}
+/* banner */
