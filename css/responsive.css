@@ -89,6 +89,38 @@
     width: 50%;
   }
   /* play instantly section */
+  /* career */
+  .career {
+    background-image: none;
+  }
+  .career-section {
+    flex-direction: column;
+  }
+  .career-section .section-img {
+    background-image: url("../images/Vector.png");
+    padding: 70px;
+  }
+
+  /* career */
+  .career-section .section-img {
+    padding: 30px;
+  }
+  .career-section .section-content {
+    text-align: center;
+  }
+  .career-section .section-description {
+    font-size: 16px;
+  }
+  .two-lists ul li {
+    font-size: 18px;
+  }
+  .career-section .section-title,
+  .career-section .section-description {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* career */
 
   /* tablet view */
 
