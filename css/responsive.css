@@ -62,19 +62,33 @@
   .identity-description {
     margin-top: 30px;
   }
+  .videos {
+    flex-direction: column;
+    gap: 35px;
+  }
+  .video-caption .section-description {
+    text-align: center;
+    width: 100%;
+  }
   /* tablet view */
   /* large mobile view */
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 450px) {
+    /* global */
+    .btn {
+      padding: 20px 30px;
+      font-size: 18px;
+      border: none;
+    }
+    /* global */
     .banner {
-      padding-left: 0;
-      padding-right: 0;
+      padding: 0;
     }
     .banner .section-img {
       box-sizing: border-box;
       padding: 0 30px;
     }
     .banner .section-content {
-      padding: 40px 0;
+      padding: 40px 10px;
     }
     .identity .section-description {
       width: 100%;
