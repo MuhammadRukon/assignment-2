@@ -1,0 +1,85 @@
+@media screen and (max-width: 1440px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .navbar {
+    gap: 20px;
+  }
+}
+
+/* tablet view */
+@media screen and (max-width: 800px) {
+  .container {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  /* nav */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    padding-top: calc(100px - 37px);
+    padding-bottom: calc(100px - 37px);
+  }
+  .nav-wrapper ul {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 36px;
+  }
+  /* nav */
+  /* banner */
+  .banner-section {
+    background-image: none;
+  }
+  .banner {
+    flex-direction: column-reverse;
+    align-items: normal;
+  }
+
+  .banner-section .section-content {
+    background-image: url("../images/Group-14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    max-width: 760px;
+    padding: 60px;
+    margin: 20px 0;
+  }
+
+  /* banner */
+  .identity {
+    flex-direction: column;
+  }
+  .identity .section-content {
+    margin: 50px 0;
+    text-align: center;
+  }
+  .identity .section-description {
+    width: 80%;
+    margin: 40px auto;
+  }
+  .identity-description {
+    margin-top: 30px;
+  }
+  /* tablet view */
+  /* large mobile view */
+  @media screen and (max-width: 800px) {
+    .banner {
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .banner .section-img {
+      box-sizing: border-box;
+      padding: 0 30px;
+    }
+    .banner .section-content {
+      padding: 40px 0;
+    }
+    .identity .section-description {
+      width: 100%;
+      margin: 30px 0;
+    }
+  }
+  /* large mobile view */
+}
