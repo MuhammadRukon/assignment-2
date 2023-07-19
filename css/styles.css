@@ -234,3 +234,24 @@ nav {
   width: 90%;
 }
 /* videos-section */
+
+/* play-instantly-section */
+.play-instantly {
+  margin: 100px 0;
+}
+.play-instantly-section {
+  gap: 200px;
+}
+.play-instantly-section .section-content {
+  text-align: right;
+  flex: 1;
+}
+.play-instantly .section-img {
+  position: relative;
+}
+.nested-img {
+  position: absolute;
+  bottom: -15%;
+  left: -15%;
+}
+/* play-instantly-section */
