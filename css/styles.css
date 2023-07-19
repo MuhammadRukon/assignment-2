@@ -61,6 +61,7 @@ img {
   border: none;
   border-radius: 48px;
   transition: 0.3s;
+  cursor: pointer;
 }
 .btn-secondary {
   background-color: #4ec5f7;
@@ -125,6 +126,9 @@ nav {
   font-size: 20px;
   font-weight: 500;
 }
+.banner-section ul li p {
+  display: inline-block;
+}
 .banner-section .section-img {
   margin-bottom: -5px;
 }
@@ -181,8 +185,16 @@ nav {
 /* identity */
 
 /* videos-section */
+.videos-section {
+  margin-top: 80px;
+}
 .videos-section .section-content {
   text-align: center;
+}
+.videos .section-title {
+  white-space: nowrap;
+  letter-spacing: -1px;
+  font-size: 36px;
 }
 .videos {
   gap: 24px;
